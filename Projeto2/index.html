@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/style.css">
+    <title>A Clinica Feliz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          src="/src/image/happyClinic.png"
+          width="120px"
+          alt="Clinica feliz"
+        />
+        <span>A clinica feliz</span>
+      </div>
+
+      <div class="content">
+        <h2>Consultas</h2>
+        <table>
+          <caption>
+            Serviços Odontológicos e Horários
+          </caption>
+          <thead>
+            <tr>
+              <th>Serviço</th>
+              <th>Segunda a Sexta</th>
+              <th>Sábado</th>
+              <th>Domingos e Feriados</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Extração</td>
+              <td>8h às 18h</td>
+              <td>8h às 14h</td>
+              <td>Fechado</td>
+            </tr>
+            <tr>
+              <td>Implante</td>
+              <td>8h às 18h</td>
+              <td>8h às 14h</td>
+              <td>Fechado</td>
+            </tr>
+            <tr>
+              <td>Aparelho</td>
+              <td>8h às 18h</td>
+              <td>8h às 14h</td>
+              <td>Fechado</td>
+            </tr>
+            <tr>
+              <td>Clareamento</td>
+              <td>8h às 18h</td>
+              <td>8h às 14h</td>
+              <td>Fechado</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>Contato</h2>
+        <p>Telefone e WhatsApp: <a href="tel:+551199999999">(11)99090-7070</a></p>
+        <p>Entre em contato pelo e-mail: <a href="mailto:#">aclinicafeliz@feliz.com</a> </p>
+        <p>R Medeiros de Albuquerque - Jardim das Bandeiras, São Paulo/SP - 05436-060</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3297964213057!2d-46.689153924034116!3d-23.55659596141836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce575858b6a5b9%3A0xc5b1a9636043ff22!2sBeco%20do%20Batman!5e0!3m2!1spt-BR!2sbr!4v1715656621620!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>Formulário de Contato</h3>
+        <form action="#">
+            <fieldset>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </fieldset>
+        </form>   
+      </div>
+
+      <div class="footer">
+        <p>&copy; 2024 - A clinica feliz</p>
+      </div>
+    </div>
+  </body>
+</html>
